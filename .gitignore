@@ -8,6 +8,17 @@
 *.so
 *.dylib
 
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
 # Test binary, built with `go test -c`
 *.test
 
